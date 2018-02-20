@@ -14,7 +14,7 @@
 
     listarVehiculos();
     // Función que es llamda desde el html para registra un nuevo usuario
-    vm.registrarVehiculos = (pNuevoVehiculo) => {
+    vm.registrarVehiculo = (pNuevoVehiculo) => {
 
       console.log(pNuevoVehiculo);
 
