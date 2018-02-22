@@ -7,3 +7,12 @@ class Cliente{
     this.edad = pEdad;
   }
 }
+
+class Vehiculo{
+  constructor(pPlaca, pMarca, pCapacidad, pAnno){
+    this.placa = pPlaca ;
+    this.marca = pMarca;
+    this.capacidad = pCapacidad;
+    this.anno = pAnno;
+  }
+}

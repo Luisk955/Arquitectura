@@ -19,7 +19,7 @@
       console.log(pNuevoVehiculo);
 
       // Tomamos el objeto sin formato y lo comvertimos en una instancia de la clase cliente
-      let objNuevoVehiculo = new Cliente(pNuevoVehiculo.placa, pNuevoVehiculo.marca, pNuevoVehiculo.capacidad, pNuevoVehiculo.anno);
+      let objNuevoVehiculo = new Vehiculo(pNuevoVehiculo.placa, pNuevoVehiculo.marca, pNuevoVehiculo.capacidad, pNuevoVehiculo.anno);
 
      
       console.log('objeto con vehiculo');
@@ -40,7 +40,7 @@
 
 
     function listarVehiculos() {
-      vm.listarVehiculos = servicioVehiculos.getVehiculos();
+      vm.listaVehiculos = servicioVehiculos.getVehiculos();
     }
 
     

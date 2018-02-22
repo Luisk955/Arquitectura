@@ -15,9 +15,9 @@
     return publicAPI;
 
     // Funcion que almacena en el localStorage todos los usuarios
-    function _addVehiculo(pnuevoVehiculo){
+    function _addVehiculo(pNuevoVehiculo){
       let listaVehiculos = _getVehiculos();
-      listaVehiculos.push(pnuevoVehiculo);
+      listaVehiculos.push(pNuevoVehiculo);
       localStorage.setItem('vehiculosLS', JSON.stringify(listaVehiculos));
     }
 
@@ -31,7 +31,7 @@
       }else{
         listaVehiculosLocal.forEach(obj => {
           
-          let objVehiculos = new Cliente(obj.placa, obj.marca, obj.capacidad, obj.anno);
+          let objVehiculos = new Vehiculo(obj.placa, obj.marca, obj.capacidad, obj.anno);
 
           listaVehiculos.push(objVehiculos);
         })
