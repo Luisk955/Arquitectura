@@ -12,7 +12,7 @@
         url: '/',
         templateUrl: './components/landingPage/landingPage.view.html',
         data:{
-          pageTitle: 'Inicio | Ejemplo Arquitectura'
+          pageTitle: 'InicioS'
         }
       })
 
@@ -20,7 +20,7 @@
         url: '/users',
         templateUrl: './components/usuarios/usuarios.view.html',
         data:{
-          pageTitle: 'Registro usuarios | Ejemplo Arquitectura'
+          pageTitle: 'Registro usuarios'
         },
         resolve: {
           load: ['$ocLazyLoad', ($ocLazyLoad) => {
@@ -34,7 +34,7 @@
         url: '/vehiculos',
         templateUrl: './components/vehiculos/vehiculos.view.html',
         data:{
-          pageTitle: 'Registro vehiculos | Ejemplo Arquitectura'
+          pageTitle: 'Registro vehiculos'
         },
         resolve: {
           load: ['$ocLazyLoad', ($ocLazyLoad) => {
@@ -45,6 +45,6 @@
         controllerAs: 'vm'
       });
 
-    $urlRouterProvider.otherwise('/users');
+    $urlRouterProvider.otherwise('/');
   };
 })();

@@ -1,5 +1,6 @@
-<div>
-
+<div ng-include = "'./components/includes/_header.html'"></div>
+<section>
+<div class="pt-5">
   <form ng-submit="vm.registrarUsuario(vm.nuevoUsuario)">
 
     <label for="">Cédula</label>
@@ -40,3 +41,5 @@
     </tbody>
   </table>
 </div>
+</section>
+<div ng-include="'./components/includes/_footer.html'"></div>

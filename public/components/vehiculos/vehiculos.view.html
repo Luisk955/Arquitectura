@@ -1,42 +1,43 @@
-<div>
-
-  <form ng-submit="vm.registrarVehiculo(vm.nuevoVehiculo)">
-
-    <label for="">Placa</label>
-    <input type="text" ng-model="vm.nuevoVehiculo.placa">
-
-    <label for="">Marca</label>
-    <input type="text" ng-model="vm.nuevoVehiculo.marca">
-
-    <label for="">Capacidad 1</label>
-    <input type="text" ng-model="vm.nuevoVehiculo.capacidad">
-
-    <label for="">Anno</label>
-    <input type="number" ng-model="vm.nuevoVehiculo.anno">
-
-    <button type="submit">Registrar</button>
-
-  </form>
-
-</div>
-
-<div>
-  <table class="table">
-    <thead>
-        <tr>
-          <th>Placa</th>
-          <th>Marca</th>
-          <th>Capacidad</th>
-          <th>Anno</th>
+<div ng-include = "'./components/includes/_header.html'"></div>
+<section >
+  <div class="pt-5">
+    <form ng-submit="vm.registrarVehiculo(vm.nuevoVehiculo)">
+  
+      <label for="">Placa</label>
+      <input type="text" ng-model="vm.nuevoVehiculo.placa">
+  
+      <label for="">Marca</label>
+      <input type="text" ng-model="vm.nuevoVehiculo.marca">
+  
+      <label for="">Capacidad 1</label>
+      <input type="text" ng-model="vm.nuevoVehiculo.capacidad">
+  
+      <label for="">Anno</label>
+      <input type="number" ng-model="vm.nuevoVehiculo.anno">
+  
+      <button type="submit">Registrar</button>
+  
+    </form>
+  </div>
+  <div>
+    <table class="table">
+      <thead>
+          <tr>
+            <th>Placa</th>
+            <th>Marca</th>
+            <th>Capacidad</th>
+            <th>Anno</th>
+          </tr>
+      </thead>
+      <tbody>
+        <tr ng-repeat="vehiculo in vm.listaVehiculos">
+          <td>{{vehiculo.placa}}</td>
+          <td>{{vehiculo.marca}}</td>
+          <td>{{vehiculo.capacidad}}</td>
+          <td>{{vehiculo.anno}}</td>
         </tr>
-    </thead>
-    <tbody>
-      <tr ng-repeat="vehiculo in vm.listaVehiculos">
-        <td>{{vehiculo.placa}}</td>
-        <td>{{vehiculo.marca}}</td>
-        <td>{{vehiculo.capacidad}}</td>
-        <td>{{vehiculo.anno}}</td>
-      </tr>
-    </tbody>
-  </table>
-</div>
+      </tbody>
+    </table>
+  </div>
+</section>
+<div ng-include="'./components/includes/_footer.html'"></div>
