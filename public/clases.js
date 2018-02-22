@@ -5,6 +5,10 @@ class Cliente{
     this.nombre1 = pNombre1;
     this.apellido1 = pApellido1;
     this.edad = pEdad;
+    this.listaVehiculos = [];
+  }
+  registrarVehiculo(pVehiculo){
+    this.listaVehiculos.push(pVehiculo);
   }
 }
 

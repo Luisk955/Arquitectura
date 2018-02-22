@@ -14,12 +14,12 @@
 
     listarUsuarios();
     // Función que es llamda desde el html para registra un nuevo usuario
-    vm.registrarUsuario = (pnuevoUsuario) => {
+    vm.registrarUsuario = (pNuevoUsuario) => {
 
-      console.log(pnuevoUsuario);
+      console.log(pNuevoUsuario);
 
       // Tomamos el objeto sin formato y lo comvertimos en una instancia de la clase cliente
-      let objNuevoUsuario = new Cliente(pnuevoUsuario.cedula, pnuevoUsuario.nombre1, pnuevoUsuario.apellido1, pnuevoUsuario.edad);
+      let objNuevoUsuario = new Cliente(pNuevoUsuario.cedula, pNuevoUsuario.nombre1, pNuevoUsuario.apellido1, pNuevoUsuario.edad);
 
      
       console.log('objeto con usuario');

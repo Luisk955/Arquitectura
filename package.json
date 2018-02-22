@@ -1,32 +1,23 @@
 {
   "name": "arquitectura",
   "version": "1.0.0",
-  "description": "Arquitectura de proyecto",
-  "main": "./public/app.js",
+  "description": "arquitectura",
+  "main": "index.html",
+  "dependencies": {},
+  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/KaguilarA/arquitecturaBasicaProyectoWeb1.git"
+    "url": "git+https://github.com/Luisk955/Arquitectura.git"
   },
-  "keywords": [
-    "MEAN",
-    "ANGULARJS",
-    "BOOTSTRAP4",
-    "JQUERY",
-    "NODEJS"
-  ],
-  "author": {
-    "name": "Kevin Aguilar",
-    "email": "kaguilara@ucenfotec.ac.cr",
-    "url": "https://twitter.com/kaguilara_"
-  },
+  "author": "Luis Carlos Del Valle",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/KaguilarA/arquitecturaBasicaProyectoWeb1/issues"
+    "url": "https://github.com/Luisk955/Arquitectura/issues"
   },
-  "homepage": "https://github.com/KaguilarA/arquitecturaBasicaProyectoWeb1#readme",
+  "homepage": "https://github.com/Luisk955/Arquitectura#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",
