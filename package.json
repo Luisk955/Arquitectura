@@ -1,21 +1,21 @@
 {
-  "name": "arquitectura",
+  "name": "funeraria",
   "version": "1.0.0",
-  "description": "arquitectura",
+  "description": "funeraria",
   "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Luisk955/Arquitectura.git"
+    "url": "git+https://github.com/ByTicos/Funeraria.git"
   },
-  "author": "Luis Carlos Del Valle",
+  "author": "ByTicos",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Luisk955/Arquitectura/issues"
+    "url": "https://github.com/ByTicos/Funeraria/issues"
   },
-  "homepage": "https://github.com/Luisk955/Arquitectura#readme",
+  "homepage": "https://github.com/ByTicos/Funeraria#readme",
   "devDependencies": {
     "browser-sync": "^2.23.6",
     "gulp": "^3.9.1",

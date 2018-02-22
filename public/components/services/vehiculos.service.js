@@ -1,7 +1,7 @@
 (() => {
   'use strict';
   angular
-  .module('arquitectura')
+  .module('funeraria')
   .service('servicioVehiculos', servicioVehiculos);
 
   servicioVehiculos.$inject = ['$log','$http'];
