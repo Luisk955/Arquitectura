@@ -20,7 +20,7 @@
       listaVehiculos.push(pNuevoVehiculo);
       localStorage.setItem('vehiculosLS', JSON.stringify(listaVehiculos));
     }
-
+ 
     // Funcion que trae todos los usuarios del localStorage y a partir de esos datos vuelve a crear un arreglo con todos los objetos de tipo usuario
     function _getVehiculos(){
       let listaVehiculos = [];
