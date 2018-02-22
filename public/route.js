@@ -12,7 +12,7 @@
         url: '/',
         templateUrl: './components/landingPage/landingPage.view.html',
         data:{
-          pageTitle: 'InicioS'
+          pageTitle: 'Arquitectura'
         }
       })
 
